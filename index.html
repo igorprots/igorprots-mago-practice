@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap" rel="stylesheet">
     <title> Mogo</title>
 
 </head>
@@ -19,7 +21,7 @@
                 <div class="header__logo">MoGo</div>
 
                 <nav class="nav">
-                    <a class="nav__link" href="http://">About</a>
+                    <a class="nav__link" href="#about">About</a>
                     <a class="nav__link" href="http://">Service</a>
                     <a class="nav__link" href="http://">Blog</a>
                     <a class="nav__link" href="http://">Work</a>
@@ -28,6 +30,8 @@
             </div>
         </div>
     </header>
+
+
     <div class="intro">
         <div class="container">
             <div class="intro__inner">
@@ -38,7 +42,8 @@
         </div>
     </div>
 
-    <section class="section">
+
+    <section class="section" id="about">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">What we do</h3>
@@ -49,57 +54,332 @@
                 </div>
             </div>
 
-            <div class="about">
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="/assets/img/about-1.png" alt="about-1">
+
+            <div class="about" ">
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/about/about-1.png " alt="about-1 ">
                     </div>
-                    <div class="about__text">super team</div>
+                    <div class="about__text ">super team</div>
                 </div>
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="/assets/img/about-2.png" alt="about-2">
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/about/about-2.png " alt="about-2 ">
                     </div>
-                    <div class="about__text">super team</div>
+                    <div class="about__text ">super team</div>
                 </div>
-                <div class="about__item">
-                    <div class="about__img">
-                        <img src="/assets/img/about-3.png" alt="about-3">
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/about/about-3.png " alt="about-3 ">
                     </div>
-                    <div class="about__text">super team</div>
+                    <div class="about__text ">super team</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div class="statistics">
-        <div class="container">
+    <div class="statistics ">
+        <div class="container ">
 
-            <div class="stat">
-                <div class="stat__item">
-                    <div class="stat__count">42</div>
-                    <div class="stat__text">Web Design Projects</div>
+            <div class="stat ">
+                <div class="stat__item ">
+                    <div class="stat__count ">42</div>
+                    <div class="stat__text ">Web Design Projects</div>
                 </div>
-                <div class="stat__item">
-                    <div class="stat__count">123</div>
-                    <div class="stat__text">happy client</div>
+
+                <div class="stat__item ">
+                    <div class="stat__count ">123</div>
+                    <div class="stat__text ">happy client</div>
                 </div>
-                <div class="stat__item">
-                    <div class="stat__count">15</div>
-                    <div class="stat__text">award winner</div>
+
+                <div class="stat__item ">
+                    <div class="stat__count ">15</div>
+                    <div class="stat__text ">award winner</div>
                 </div>
-                <div class="stat__item">
-                    <div class="stat__count">99</div>
-                    <div class="stat__text">cup of coffee</div>
+
+                <div class="stat__item ">
+                    <div class="stat__count ">99</div>
+                    <div class="stat__text ">cup of coffee</div>
                 </div>
-                <div class="stat__item">
-                    <div class="stat__count">24</div>
-                    <div class="stat__text">members</div>
+
+                <div class="stat__item ">
+                    <div class="stat__count ">24</div>
+                    <div class="stat__text ">members</div>
                 </div>
             </div>
 
         </div>
     </div>
+
+
+    <section class="section ">
+        <div class="container ">
+
+            <div class="section__header ">
+                <h3 class="section__suptitle ">We work with</h3>
+                <h2 class="section__title ">Amazing Services</h2>
+            </div>
+
+            <div class="service ">
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/clock.png " alt=" ">
+                    <div class="service__title ">
+                        Time
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/home.gif " alt=" ">
+                    <div class="service__title ">
+                        Home
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/web design.gif " alt=" ">
+                    <div class="service__title ">
+                        Statistic
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="service ">
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/clock.png " alt=" ">
+                    <div class="service__title ">
+                        Time
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/home.gif " alt=" ">
+                    <div class="service__title ">
+                        Home
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+
+                <div class="service__item ">
+                    <img class="service__icon " src="assets/img/service/web design.gif " alt=" ">
+                    <div class="service__title ">
+                        Statistic
+                    </div>
+                    <div class="service__text ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora vitae quidem.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section section_devices ">
+        <div class="container ">
+
+            <div class="section__header ">
+                <h3 class="section__suptitle ">For all devices</h3>
+                <h2 class="section__title ">Unique design</h2>
+            </div>
+
+            <div class="devices ">
+                <img class="devices__ipad " src="assets/img/devices/ipad.png " alt="ipad ">
+                <img class="devices__iphone " src="assets/img/devices/iphone.png " alt="iphone ">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="container ">
+
+            <div class="section__header ">
+                <h3 class="section__suptitle ">Service</h3>
+                <h2 class="section__title ">what we do</h2>
+                <div class="section__text ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam vitae porro distinctio perferendis cumque dolorem libero quidem tempora fugit! Tenetur ipsa tempore incidunt.
+                    </p>
+                </div>
+            </div>
+
+            <div class="wedo ">
+                <div class="wedo__item ">
+                    <img src="assets/img/wedo.png ">
+                </div>
+
+                <div class="wedo__item ">
+
+                    <div class="accordion ">
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/clock.png " alt=" ">
+                                <div class="accordion__title ">Time</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/home.gif " alt=" ">
+                                <div class="accordion__title ">Home</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/web design.gif " alt=" ">
+                                <div class="accordion__title ">Statistic</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/clock.png " alt=" ">
+                                <div class="accordion__title ">Time</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/home.gif " alt=" ">
+                                <div class="accordion__title ">Home</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item ">
+                            <div class="accordion__header ">
+                                <img class="accordion__icon " src="assets/img/service/web design.gif " alt=" ">
+                                <div class="accordion__title ">Statistic</div>
+                            </div>
+                            <div class="accordion__content ">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing perspiciatis harum, fugit soluta nesciunt in impedit, eveniet minima at commodi iste porro, expedita tenetur </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    </section>
+
+    <section class="section section_grey ">
+        <div class="container ">
+            
+            <div class="slider ">
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+                <div class="slider__item "><img src="/assets/img/about/about-1.png " alt=" "></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section ">
+        <div class="container ">
+            <div class="section__header ">
+                <h3 class="section__suptitle ">Who we are</h3>
+                <h2 class="section__title ">Meet our team</h2>
+                <div class="section__text ">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nam vitae porro distinctio perferendis cumque dolorem libero quidem tempora fugit! Tenetur ipsa tempore incidunt nam distinctio numquam atque aut? Cum.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="team " >
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/team/team-1.png " alt="team-1 ">
+                    </div>
+                    <div class="about__text ">
+
+                        <div class="team__icon "> 
+                            <img src="/assets/img/team/facebook.png " alt=" ">
+                            <img src="/assets/img/team/instagram.png " alt=" ">
+                            <img src="/assets/img/team/pinterest.png " alt=" ">
+                            <img src="/assets/img/team/twitter.png " alt=" ">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/team/team-2.png " alt="team-2 ">
+                    </div>
+                    <div class="about__text ">
+
+                        <div class="team__icon "> 
+                            <img src="/assets/img/team/facebook.png " alt=" ">
+                            <img src="/assets/img/team/instagram.png " alt=" ">
+                            <img src="/assets/img/team/pinterest.png " alt=" ">
+                            <img src="/assets/img/team/twitter.png " alt=" ">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="about__item ">
+                    <div class="about__img ">
+                        <img src="/assets/img/team/team-3.png " alt="team-3 ">
+                    </div>
+                    <div class="about__text ">
+                        <div class="team__icon "> 
+                            <a href="# " target="_blank " rel="noopener noreferrer ">
+                                <img src="/assets/img/team/facebook.png " alt=" "></a>
+                            <a href="# " target="_blank " rel="noopener noreferrer ">
+                                <img src="/assets/img/team/instagram.png " alt=" "></a>
+                            <a href="# " target="_blank " rel="noopener noreferrer ">
+                                <img src="/assets/img/team/pinterest.png " alt=" "></a>
+                            <a href="# " target="_blank " rel="noopener noreferrer ">
+                                <img src="/assets/img/team/twitter.png " alt=" "></a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script src="accordion.js "></script>
+    <script src="scroll.js "></script>
+    <script src="slider.js "></script>
 
 </body>
 
