@@ -59,7 +59,7 @@ hr {
 }
 
 .itro__suptitle {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 72px;
     color: #fff;
     font-family: 'Kaushan Script', cursive;
@@ -819,24 +819,22 @@ header {
     background-color: #f8f8f8;
 }
 
-.footer_inner {
+.footer__inner {
     padding-bottom: 65px;
     display: flex;
+    justify-content: space-between;
     width: 100%;
 }
 
 .footer__col_first {
-    display: inline-block;
     width: 40%;
 }
 
 .footer__col_second {
-    display: inline-block;
     width: 29%;
 }
 
 .footer__col_third {
-    display: inline-block;
     width: 22%;
 }
 
@@ -882,6 +880,13 @@ header {
     margin-left: 10px;
     color: #95e1d3;
     font-size: 18px;
+}
+
+.footer__title {
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-style: 14px;
+    color: #333;
 }
 
 
@@ -940,4 +945,79 @@ header {
 .subscribe__inpute:focus {
     outline: none;
     border-color: #74c7b8;
+}
+
+
+/* Blogs */
+
+.blogs {}
+
+.blogs__item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.blogs__img {
+    width: 120px;
+    height: 80px;
+}
+
+.blogs__content {
+    padding-left: 20px;
+}
+
+.blogs__title {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.blogs__title:hover {
+    text-decoration: underline;
+}
+
+.blogs__data {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    color: #999;
+}
+
+
+/* Instagram */
+
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.instagram__item {
+    width: 32.3333%;
+    flex: 1 1 0;
+    border-bottom: 1px solid #fff;
+}
+
+.instagram__item img {
+    display: block;
+}
+
+
+/* Copyright */
+
+.copyright {
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.copyright span {
+    color: #f38181;
 }
