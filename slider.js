@@ -8,6 +8,14 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $('.slider_6').slick({
+        infinite: true,
+        slidesToShow: 6,
+        slidesToScroll: 1
+    });
+});
+
 
 // $(document).ready(function() {
 //     $('.slider').slick({
